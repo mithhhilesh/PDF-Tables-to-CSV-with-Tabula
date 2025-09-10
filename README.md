@@ -60,7 +60,7 @@ Python
 df = pd.read_csv("final_output.csv", skiprows=1)
 df.head()
 
-# MODIFY THESE COLUMN NAMES to match your CSV file
+##### MODIFY THESE COLUMN NAMES to match your CSV file
 df["Total Marks"] = df["Internal Test-1\rfreezed"] + df["Unnamed: 3"]
 print(df)
 
